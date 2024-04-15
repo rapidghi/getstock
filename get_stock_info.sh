@@ -7,7 +7,7 @@ if [ "$#" -ne 1 ]; then
 fi
 
 SYMBOL=$1
-API_KEY="PG2JXUMQM3ZHLIL2"  # Your Alpha Vantage API key
+API_KEY="AAAAAAAAAAAAAAAA"  # Your Alpha Vantage API key
 URL="https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=$SYMBOL&apikey=$API_KEY"
 
 # Fetch the stock data
